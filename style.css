@@ -30,7 +30,7 @@ span {
 }
 p {
   margin-bottom: 80px;
-  font-weight: 400;
+  font-weight: 500;
   color: dimgray;
 }
 #h1-gap1 {
@@ -43,6 +43,11 @@ p {
 h2 {
   margin-top: 100px;
   color: dimgray;
+  font-size: 900;
+}
+h3 {
+  color: dimgray;
+  font-size: 900;
 }
 .flexible-container {
   display: flex;
@@ -76,4 +81,33 @@ h2 {
 .second-half-width img {
   width: 35%;
   padding-left: 90px;
+}
+.recipe {
+  text-align: center;
+}
+.recipe-story {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.company-title {
+  margin-bottom: -50px;
+}
+.side-by-side {
+  display: flex;
+  margin-left: 6%;
+  margin-right: 5%;
+}
+.card img {
+  width: 90%;
+  margin: 19px;
+}
+.card {
+  box-shadow: 10px 10px 40px lightgray;
+  border-radius: 20px;
+  margin: 50px;
+  margin-left: 20px;
+}
+.title-section {
+  margin: 20px;
 }
