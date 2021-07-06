@@ -1,0 +1,53 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  display: inline;
+  padding-left: 50px;
+}
+#icon {
+  width: 60px;
+  float: left;
+  padding-left: 60px;
+}
+#navbar {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.identify {
+  font-weight: 600;
+  text-decoration: none;
+  color: coral;
+}
+h1 {
+  color: #575757;
+  font-weight: 900;
+  font-size: 40px;
+}
+span {
+  color: coral;
+}
+.flexible-container {
+  display: flex;
+  padding-left: 90px;
+}
+.half-width {
+  width: 50%;
+}
+p {
+  margin-bottom: 90px;
+  font-weight: 400;
+  color: dimgray;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 25px 40px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 900;
+}
+.half-width img {
+  width: 70%;
+  padding-left: 160px;
+}
