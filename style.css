@@ -111,3 +111,35 @@ h3 {
 .title-section {
   margin: 20px;
 }
+.subscription-box {
+  display: flex;
+  box-shadow: 10px 10px 40px lightgray;
+  height: 180px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-left: 13%;
+}
+.youtube {
+  margin-right: 250px;
+  margin-left: -42px;
+}
+.dribble {
+  margin-left: 220px;
+}
+.order-item {
+  text-align: center;
+  margin-top: 80px;
+}
+.message-gap {
+  margin-bottom: 40px;
+}
+#order {
+  margin-bottom: 100px;
+}
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 1px 0;
+}
