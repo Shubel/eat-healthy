@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 li {
   display: inline;
@@ -27,17 +28,30 @@ h1 {
 span {
   color: coral;
 }
+p {
+  margin-bottom: 80px;
+  font-weight: 400;
+  color: dimgray;
+}
+#h1-gap1 {
+  margin-top: 60px;
+}
+#h1-gap2 {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+h2 {
+  margin-top: 100px;
+  color: dimgray;
+}
 .flexible-container {
   display: flex;
   padding-left: 90px;
+  margin-bottom: 50px;
 }
 .half-width {
   width: 50%;
-}
-p {
-  margin-bottom: 90px;
-  font-weight: 400;
-  color: dimgray;
+  margin-left: 15px;
 }
 .link-button {
   text-decoration: none;
@@ -48,6 +62,18 @@ p {
   font-weight: 900;
 }
 .half-width img {
-  width: 70%;
+  width: 60%;
   padding-left: 160px;
+}
+.bg-shape {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.second-half-width {
+  width: 50%;
+  margin-right: 60px;
+}
+.second-half-width img {
+  width: 35%;
+  padding-left: 90px;
 }
